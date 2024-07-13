@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HiddenTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-09-13T23:59:17" hostname="DESKTOP-TH2K7JP" time="0.718">
+  <properties/>
+  <testcase name="testMax()" classname="HiddenTests" time="0.311"/>
+  <testcase name="testEmpty()" classname="HiddenTests" time="0.003"/>
+  <testcase name="randomMax()" classname="HiddenTests" time="0.196"/>
+  <testcase name="randomMedium()" classname="HiddenTests" time="0.031"/>
+  <testcase name="randomLarge()" classname="HiddenTests" time="0.083"/>
+  <testcase name="randomSmall()" classname="HiddenTests" time="0.06"/>
+  <testcase name="randomUpTo10()" classname="HiddenTests" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

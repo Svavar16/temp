@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HiddenTests" tests="7" skipped="0" failures="6" errors="0" timestamp="2023-09-14T00:13:32" hostname="DESKTOP-TH2K7JP" time="0.356">
+  <properties/>
+  <testcase name="randomMediumInstances()" classname="HiddenTests" time="0.053">
+    <failure message="org.opentest4j.AssertionFailedError: [length(s) = 80] incorrect number of blocks ==&gt; expected: &lt;24&gt; but was: &lt;43&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: [length(s) = 80] incorrect number of blocks ==&gt; expected: &lt;24&gt; but was: &lt;43&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:69)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:594)
+	at app//HiddenTests.testSingle(HiddenTests.kt:128)
+	at app//HiddenTests.testRandom(HiddenTests.kt:80)
+	at app//HiddenTests.access$testRandom(HiddenTests.kt:9)
+	at app//HiddenTests$randomMediumInstances$1.invoke(HiddenTests.kt:52)
+	at app//HiddenTests$randomMediumInstances$1.invoke(HiddenTests.kt:49)
+	at app//org.junit.jupiter.api.AssertionsKt$sam$org_junit_jupiter_api_function_ThrowingSupplier$0.get(Assertions.kt)
+	at app//org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="testMax()" classname="HiddenTests" time="0.164">
+    <failure message="org.opentest4j.AssertionFailedError: [length(s) = 1000000] incorrect number of blocks ==&gt; expected: &lt;249877&gt; but was: &lt;500152&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: [length(s) = 1000000] incorrect number of blocks ==&gt; expected: &lt;249877&gt; but was: &lt;500152&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:69)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:594)
+	at app//HiddenTests.testSingle(HiddenTests.kt:128)
+	at app//HiddenTests.access$testSingle(HiddenTests.kt:9)
+	at app//HiddenTests$testMax$1.invoke(HiddenTests.kt:76)
+	at app//HiddenTests$testMax$1.invoke(HiddenTests.kt:75)
+	at app//org.junit.jupiter.api.AssertionsKt$sam$org_junit_jupiter_api_function_ThrowingSupplier$0.get(Assertions.kt)
+	at app//org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="testEmpty()" classname="HiddenTests" time="0.007"/>
+  <testcase name="randomMax()" classname="HiddenTests" time="0.106">
+    <failure message="org.opentest4j.AssertionFailedError: [length(s) = 997455] incorrect number of blocks ==&gt; expected: &lt;249028&gt; but was: &lt;499238&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: [length(s) = 997455] incorrect number of blocks ==&gt; expected: &lt;249028&gt; but was: &lt;499238&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:69)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:594)
+	at app//HiddenTests.testSingle(HiddenTests.kt:128)
+	at app//HiddenTests.testRandom(HiddenTests.kt:80)
+	at app//HiddenTests.access$testRandom(HiddenTests.kt:9)
+	at app//HiddenTests$randomMax$1.invoke(HiddenTests.kt:71)
+	at app//HiddenTests$randomMax$1.invoke(HiddenTests.kt:70)
+	at app//org.junit.jupiter.api.AssertionsKt$sam$org_junit_jupiter_api_function_ThrowingSupplier$0.get(Assertions.kt)
+	at app//org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="randomMedium()" classname="HiddenTests" time="0.004">
+    <failure message="org.opentest4j.AssertionFailedError: [length(s) = 123] incorrect number of blocks ==&gt; expected: &lt;28&gt; but was: &lt;66&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: [length(s) = 123] incorrect number of blocks ==&gt; expected: &lt;28&gt; but was: &lt;66&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:69)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:594)
+	at app//HiddenTests.testSingle(HiddenTests.kt:128)
+	at app//HiddenTests.testRandom(HiddenTests.kt:80)
+	at app//HiddenTests.access$testRandom(HiddenTests.kt:9)
+	at app//HiddenTests$randomMedium$1.invoke(HiddenTests.kt:59)
+	at app//HiddenTests$randomMedium$1.invoke(HiddenTests.kt:58)
+	at app//org.junit.jupiter.api.AssertionsKt$sam$org_junit_jupiter_api_function_ThrowingSupplier$0.get(Assertions.kt)
+	at app//org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="randomLarge()" classname="HiddenTests" time="0.005">
+    <failure message="org.opentest4j.AssertionFailedError: [length(s) = 16929] incorrect number of blocks ==&gt; expected: &lt;4262&gt; but was: &lt;8445&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: [length(s) = 16929] incorrect number of blocks ==&gt; expected: &lt;4262&gt; but was: &lt;8445&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:69)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:594)
+	at app//HiddenTests.testSingle(HiddenTests.kt:128)
+	at app//HiddenTests.testRandom(HiddenTests.kt:80)
+	at app//HiddenTests.access$testRandom(HiddenTests.kt:9)
+	at app//HiddenTests$randomLarge$1.invoke(HiddenTests.kt:65)
+	at app//HiddenTests$randomLarge$1.invoke(HiddenTests.kt:64)
+	at app//org.junit.jupiter.api.AssertionsKt$sam$org_junit_jupiter_api_function_ThrowingSupplier$0.get(Assertions.kt)
+	at app//org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="randomSmall()" classname="HiddenTests" time="0.005">
+    <failure message="org.opentest4j.AssertionFailedError: [length(s) = 19] incorrect number of blocks ==&gt; expected: &lt;6&gt; but was: &lt;8&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: [length(s) = 19] incorrect number of blocks ==&gt; expected: &lt;6&gt; but was: &lt;8&gt;
+	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at app//org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:69)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:594)
+	at app//HiddenTests.testSingle(HiddenTests.kt:128)
+	at app//HiddenTests.testRandom(HiddenTests.kt:80)
+	at app//HiddenTests.access$testRandom(HiddenTests.kt:9)
+	at app//HiddenTests$randomSmall$1.invoke(HiddenTests.kt:45)
+	at app//HiddenTests$randomSmall$1.invoke(HiddenTests.kt:44)
+	at app//org.junit.jupiter.api.AssertionsKt$sam$org_junit_jupiter_api_function_ThrowingSupplier$0.get(Assertions.kt)
+	at app//org.junit.jupiter.api.AssertTimeout.lambda$assertTimeoutPreemptively$4(AssertTimeout.java:138)
+	at java.base@17.0.8.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.8.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.8.1/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

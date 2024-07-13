@@ -1,0 +1,5 @@
+
+JWT_SECRET_KEY=thisissomeawesomesecretkey
+
+run:
+	export GOOGLE_CLIENT_ID=$(GOOGLE_CLIENT_ID) GOOGLE_CLIENT_SECRET=$(GOOGLE_CLIENT_SECRET) JWT_SECRET_KEY=$(JWT_SECRET_KEY) && go run main.go

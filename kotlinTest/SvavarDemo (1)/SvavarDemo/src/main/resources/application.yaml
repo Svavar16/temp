@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: development
+  datasource:
+    url: jdbc:postgresql://tyke.db.elephantsql.com:5432/dzlwcgej
+    username: dzlwcgej
+    password: 5dbndkrAW-qjhVscBEWednwcAMrWX9Od
+
+spring.flyway:
+  enabled: true
+  baseline-on-migrate: true
+
+springdoc:
+  swagger-ui:
+    enabled: true

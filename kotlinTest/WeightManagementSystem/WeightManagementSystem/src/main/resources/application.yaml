@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: development
+  datasource:
+    url: jdbc:postgresql://lucky.db.elephantsql.com:5432/czwgpums
+    username: czwgpums
+    password: j20XrPI6VqTzNHKXS8Ztzx-3Puyr7Bj2

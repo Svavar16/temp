@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CloudCustomers.API",
+    "\\CloudCustomers.API\\Controllers",
+    "\\CloudCustomers.UnitTests",
+    "\\CloudCustomers.UnitTests\\Systems",
+    "\\CloudCustomers.UnitTests\\Systems\\Controllers"
+  ],
+  "SelectedNode": "\\CloudCustomers.UnitTests",
+  "PreviewInSolutionExplorer": false
+}
